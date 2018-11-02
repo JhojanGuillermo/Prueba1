@@ -1,0 +1,34 @@
+{
+    "name": "cordova-plugin-prueba1",
+    "version": "0.0.1",
+    "description": "Prueba de creacion de un plugin",
+    "cordova": {
+        "id": "cordova-plugin-prueba1",
+        "platforms": [
+            "android"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JhojanGuillermo/Prueba1/Prueba1.git"
+    },
+    "keywords": [
+        "Prueba1",
+        "Base64",
+        "Imagen", 
+        "ecosystem:cordova",
+        "cordova-android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ],
+    "author": "JhojanG",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JhojanGuillermo/Prueba1/issues"
+    },
+    "homepage": "https://github.com/JhojanGuillermo/Prueba1/"
+}

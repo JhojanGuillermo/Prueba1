@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-prueba1" version="0.0.1">
+
+    <name>Prueba1</name>
+
+    <description>Prueba de creacion de un plugin</description>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <author>JGuiller</author>
+    
+    <licence>MIT</licence>
+    
+    <keyword>prueba1,base64,imagen</keyword>
+     <repo>https://github.com/JhojanGuillermo/Prueba1/Prueba1.git</repo>
+     
+     <issue>https://github.com/JhojanGuillermo/Prueba1/issues</issue>
+
+    <js-module src="www/prueba1.js" name="prueba1">
+        <clobbers target="window.plugins.prueba1" />
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Prueba1">
+                <param name="android-package" value="com.jguiller.cordova.plugin.Prueba1" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Prueba1.java" target-dir="src/com/jguiller/cordova/plugin" />
+
+        <lib-file src="libs/jnbis-2.0.0.jar" />
+    </platform>
+</plugin>
